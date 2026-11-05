@@ -33,6 +33,8 @@ Te permite usar **Gemini**, **Claude** (Sonnet 4.6, Opus 4.6) y **GPT-OSS** apro
 
 ## 📦 Instalación
 
+> 🤖 **Para Instalación Asistida por AI (Claude, Pi, Cursor):** Consulta estrictamente [AI_INSTALL.md](AI_INSTALL.md). Este paquete es un **Proveedor Headless**, NO debe generar widgets en chat.
+
 ### En Gentle Shell
 ```bash
 # Vía npm (cuando esté publicado):

@@ -17,7 +17,7 @@ import {
   resolveActiveCredentials,
   saveAccountsStore
 } from "./auth.js";
-import { prewarmTlsConnection, resolveProjectId } from "./client.js";
+import { DEFAULT_ENDPOINT, prewarmTlsConnection, resolveProjectId } from "./client.js";
 import { formatDoctorReport, runDoctorDiagnosis } from "./doctor.js";
 import {
   formatQuotaReport,
@@ -32,6 +32,8 @@ export default function activate(api: ExtensionAPI): void {
   // 1. Registro del Proveedor en Pi y Gentle Shell
   api.registerProvider(PROVIDER_ID, {
     name: PROVIDER_LABEL,
+    api: "custom" as any,
+    baseUrl: DEFAULT_ENDPOINT,
     models: initialModels,
     streamSimple: createAntigravityStream,
     oauth: {

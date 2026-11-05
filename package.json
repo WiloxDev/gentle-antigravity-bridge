@@ -1,0 +1,54 @@
+{
+  "name": "gentle-antigravity-bridge",
+  "version": "1.0.0",
+  "description": "Puente de Google Antigravity para Gentle Shell y Pi: Gemini 3.8/3.7/3.6, Claude Sonnet/Opus 4.6 y GPT-OSS | Nativo Gentle-Shell & Pi | 💡 Rotación Multi-Cuenta: En caso de tener dos o más cuentas de Google, dispones de conmutación automática ante límites 429 para distribuir el consumo y evitar agotamiento de cuotas.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "gentle-shell-package",
+    "gentle-shell-extension",
+    "gentle-hub-project",
+    "antigravity",
+    "gemini",
+    "claude",
+    "google-oauth",
+    "cloud-code-assist",
+    "ai"
+  ],
+  "author": "Wilox <wilsonlavio9@gmail.com>",
+  "license": "MIT",
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ],
+    "image": "https://raw.githubusercontent.com/WiloxDev/gentle-antigravity-bridge/main/assets/logo.png"
+  },
+  "files": [
+    "src",
+    "assets",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@earendil-works/pi-ai": ">=0.86.0",
+    "@earendil-works/pi-coding-agent": ">=0.86.0"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-ai": "^1.4.0",
+    "@earendil-works/pi-coding-agent": "^1.4.0",
+    "@earendil-works/pi-tui": "^1.4.0",
+    "@types/node": "^24.3.0",
+    "esbuild": "^0.28.0",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

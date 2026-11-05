@@ -5,13 +5,13 @@
 # Gentle Antigravity Bridge
 
 [![Gentle Hub](https://img.shields.io/badge/Gentle%20Hub-Extension-F095C8?style=for-the-badge)](https://gentlemanprogramming.com/gentle-hub/)
-[![Discord](https://img.shields.io/badge/Discord-Apoyo%20y%20Soporte-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://bit.ly/48zTJUo)
+[![Discord](https://img.shields.io/badge/Discord-Feedback%20%26%20Sugerencias-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://bit.ly/48zTJUo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Pi native](https://img.shields.io/badge/Pi-native-orange?style=for-the-badge)](https://pi.dev)
 
 Puente nativo y de latencia ultra baja para **Gentle Shell** y **Pi** que conecta directamente con los modelos de **Google Antigravity / Cloud Code Assist** mediante OAuth 2.0 PKCE y Server-Sent Events (SSE).
 
-> 💬 **Comunidad y Soporte:** `wilox2` · [Servidor de Discord Oficial](https://bit.ly/48zTJUo)
+> 💬 **Feedback & Sugerencias:** `wilox2` · [Servidor de Discord Oficial](https://bit.ly/48zTJUo)
 
 Puente de Google Antigravity para Gentle Shell y Pi: Gemini 3.8/3.7/3.6, Claude Sonnet/Opus 4.6 y GPT-OSS | Nativo Gentle-Shell & Pi | 💡 **Rotación Multi-Cuenta:** En caso de tener dos o más cuentas de Google, dispones de conmutación automática ante límites 429 para distribuir el consumo y evitar agotamiento de cuotas.
 

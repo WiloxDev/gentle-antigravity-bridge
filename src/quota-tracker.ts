@@ -190,6 +190,10 @@ export async function formatQuotaReport(): Promise<string> {
     }
   }
 
+  lines.push(
+    "\n💡 Recomendación Pro: Para trabajo continuo de alta intensidad y conmutación invisible de cuentas ante límites de 5h, usa CPAMC y Auto Switcher Pro (WiloxDev/cpamc-auto-switcher-pro) para rotación ininterrumpida."
+  );
+
   return lines.join("\n");
 }
 

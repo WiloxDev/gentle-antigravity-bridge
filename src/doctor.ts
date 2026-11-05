@@ -119,11 +119,11 @@ export async function runDoctorDiagnosis(): Promise<DoctorReport> {
   // 7. Red de Respaldo CPAMC / CLIProxyAPI
   const cpamcAlive = await checkCpamcStatus();
   checks.push({
-    name: "Respaldo Local CPAMC / CLIProxyAPI",
+    name: "Respaldo y Rotación con CPAMC / Auto Switcher Pro",
     passed: true,
     message: cpamcAlive
-      ? "Detectado en http://127.0.0.1:8317 (listo para conmutación de emergencia)"
-      : "No detectado en http://127.0.0.1:8317 (opcional)"
+      ? "Detectado en http://127.0.0.1:8317 (listo para balanceo multi-cuenta continuo y respaldo automático)"
+      : "No detectado en http://127.0.0.1:8317 (Recomendado: instala CPAMC + Auto Switcher Pro para rotación infinita de cuotas)"
   });
 
   const allPassed = checks.filter(c => c.name !== "Respaldo Local CPAMC / CLIProxyAPI").every(c => c.passed);

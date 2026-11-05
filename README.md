@@ -86,6 +86,18 @@ pi install /home/wilsonlavio/projects/gentle-antigravity-bridge
 
 ---
 
+## 💡 Escalado a Producción: CPAMC y Auto Switcher Pro
+
+Para un uso personal o tareas directas en tu máquina local, **Gentle Antigravity Bridge** te brinda conexión directa de latencia cero.
+
+Sin embargo, si realizas **trabajo continuo e intenso con agentes autónomos** o manejas múltiples cuentas de Google, la combinación de **CLI Proxy API Management Center (CPAMC)** y **Auto Switcher Pro** ([WiloxDev/cpamc-auto-switcher-pro](https://github.com/WiloxDev/cpamc-auto-switcher-pro)) es la solución definitiva recomendada:
+
+1. **Rotación Continua e Invisible:** Cuando una cuenta alcanza el límite de la ventana de 5 horas (HTTP 429), Auto Switcher Pro conmuta a cuentas de reserva en segundo plano sin interrumpir la generación de código.
+2. **Pools Soberanos Multi-Proveedor:** Permite agrupar en una sola cola tus cuentas de **Google Antigravity**, **Claude Pro/Max**, **OpenAI Codex** y **NVIDIA NIM**, balanceando la carga según disponibilidad de tokens.
+3. **Protección Anti-Agotamiento:** Si las cuotas de Google bajan del umbral crítico, CPAMC enruta automáticamente peticiones a modelos gratuitos de respaldo (como DeepSeek R1 o Llama 3.3 en NVIDIA NIM) hasta que la ventana de cuota se restablezca.
+
+---
+
 ## 🏷️ Temas de GitHub para Gentle Hub
 
 Para que el catálogo de **Gentle Hub** reconozca e indexe esta extensión:
